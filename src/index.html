@@ -12,14 +12,24 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body class="vh-100 bg-success d-flex align-items-center">
-    <div
-      id="card"
-      class="container-fluid text-center h-75 w-25 bg-white d-flex flex-column"
-    >
-      <div class="suit mb-auto me-auto p-1 ">1</div>
-      <div id="number" class="">2</div>
-      <div class="suit mt-auto ms-auto p-1 flipSuit">3</div>
+  <body class="vh-100 bg-success">
+    <div class="d-flex align-items-center mt-5">
+      <div
+        id="card"
+        class="container-fluid text-center h-75 w-25 bg-white d-flex flex-column rounded"
+      >
+        <div class="suit mb-auto me-auto p-1 ">1</div>
+        <div id="number">2</div>
+        <div class="suit mt-auto ms-auto p-1 flipSuit">3</div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-5">
+      <input
+        class="btn btn-primary btn-lg"
+        value="NEW CARD"
+        onclick="history.go()"
+        type="button"
+      />
     </div>
   </body>
 </html>
